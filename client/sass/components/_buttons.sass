@@ -1,0 +1,66 @@
+.btn
+    padding: 10px 24px
+    border: 0
+    font-family: $font-medium
+    display: inline-flex
+    justify-content: center
+    align-items: center
+    cursor: pointer
+    font-size: 16px
+    border-radius: 50px
+    text-decoration: none
+    &.btn-raised
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2)
+        background-color: #E5EADC
+        color: #5A8345
+        span
+            margin-right: 8px
+        &:hover
+            background-color: #d0d9bf
+            color: #294f17
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    &.btn-primary
+        background-color: $primary-color
+        color: $text-color
+        &:hover
+            background-color: $primary-color-hover
+    &.btn-secondary
+        background-color: $secondary-color
+        color: $secondary-text-color
+        &:hover
+            background-color: $secondary-color-hover
+    &.btn-text
+        background-color: transparent
+        color: $secondary-text-color
+        &:hover
+            background-color: transparent
+            color: $secondary-text-color
+
+.fab
+    background-color: $secondary-color
+    color: $secondary-text-color
+    border-radius: 24px
+    width: 84px
+    height: 84px
+    display: flex
+    justify-content: center
+    align-items: center
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2)
+    cursor: pointer
+    text-decoration: none
+    &:hover
+        background-color: $secondary-color-hover
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    span
+        font-size: 36px
+        margin: 0
+    &.fab-text
+        height: 52px
+        font-family: $font-medium
+        padding: 0 16px
+        border-radius: 12px
+        span
+            font-size: 24px
+            margin-right: 16px
+
+// Path: client\sass\components\_cards.sass
